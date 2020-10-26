@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body {
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ac70376f-c5c3-41d0-83a2-52c513b6532f/d6j1aa5-183c85cc-55f0-47eb-b7f8-259e709684a8.png/v1/fill/w_1024,h_576,strp/star_wars_the_old_republic_space_background_by_lordxidiin_d6j1aa5-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01NzYiLCJwYXRoIjoiXC9mXC9hYzcwMzc2Zi1jNWMzLTQxZDAtODNhMi01MmM1MTNiNjUzMmZcL2Q2ajFhYTUtMTgzYzg1Y2MtNTVmMC00N2ViLWI3ZjgtMjU5ZTcwOTY4NGE4LnBuZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.ZjsaUckFdFG5JA6-F0uYyZdfynxuDPJUUur0FyeD2dE");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  background-color: #282c34;
+  display: inline-block;
+  margin-top: 20px;
+  height:115px;
+  color: white;
+  border-radius: 10px;
+}
+
+.form-inline{
+  display: inline-block;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+label{
+  padding:5px;
+}
+
+.show {
+  color: yellow;
+}
+
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: yellow;
+}
+
+h4 {
+  color:white;
+}
